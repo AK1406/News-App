@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     @Override
     public Loader<List<News>> onCreateLoader(int i, Bundle bundle) {
         Uri.Builder builder = Uri.parse(GUARDIAN_REQUEST_URL).buildUpon();
-        builder.appendQueryParameter("api-key","5f80f2cc-803b-4d34-bcd3-c3be01bf9452");
+        builder.appendQueryParameter("api-key","Your api key");
         builder.appendQueryParameter("show-tags","contributors");
         builder.appendQueryParameter("page-size","10");
 
