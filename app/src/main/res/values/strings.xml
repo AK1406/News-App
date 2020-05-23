@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">newsapp</string>
+    <string name="no_result_found">No Result Found,Try Again!</string>
+    <string name="news_title">news title</string>
+    <string name="no_news_found">No News found</string>
+    <string name="news_type">News Type</string>
+    <string name="author_name">author name</string>
+    <string name="authorNA">author NA</string>
+</resources>

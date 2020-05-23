@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linearLayoutStyle"
+    android:background="#ECCA76">
+
+
+    <LinearLayout style="@style/innerLinearLayoutStyle">
+
+        <TextView
+            android:id="@+id/newsSectionName"
+            style="@style/sectionStyle"
+            tools:text="World news" />
+
+        <TextView
+            android:id="@+id/newsTitle"
+            style="@style/titleStyle"
+            tools:text="@string/news_title" />
+
+        <TextView
+            android:id="@+id/newsType"
+            style="@style/newsTypeStyle"
+            android:text="@string/news_type" />
+        <TextView
+            android:id="@+id/authorName"
+            android:text="@string/author_name"
+            style="@style/authorNameStyle" />
+        <TextView
+            android:id="@+id/publishDate"
+            style="@style/dateStyle"
+            tools:text="yyyy-mm-dd" />
+
+    </LinearLayout>
+</LinearLayout>
+
